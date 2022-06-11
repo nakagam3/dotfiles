@@ -4,6 +4,7 @@ tap "homebrew/core"
 
 brew "git"
 brew "jq"
+brew "volta"
 brew "mas"
 
 cask "alfred"
