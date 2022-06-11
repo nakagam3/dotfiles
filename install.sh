@@ -1,9 +1,18 @@
 #!/bin/bash
 
+## Homebrewでインストール
+cp -i .Brewfile ~/.Brewfile
+brew bundle --global
+
+## zshの設定を反映（既にファイルがあるときは上書きするか確認する）
+cp -i .zshrc ~/.zshrc
+
+## Homeディレクトリに移動
 START_POSITION=$(pwd)
 echo $START_POSITION
 cd ~
 
+## git-completionとgit-promptのセットアップ
 DIR=".zsh"
 if [ ! -d $DIR ];then
   mkdir .zsh

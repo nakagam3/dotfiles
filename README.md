@@ -4,9 +4,8 @@
 
 ```shell
 git clone りぽじとり
-cp .Brewfile ~/Brewfile
-cd ~
-brew bundle
+cd りぽじとり
+zsh install.sh
 ```
 
 ## Update
@@ -14,7 +13,12 @@ brew bundle
 ### Brewfile
 ```shell
 brew bundle dump --global --force
-cat ~/.Brewfile
+cp ~/.Brewfile .Brewfile
+```
+
+### .zshrc
+```shell
+cp ~/.zshrc .zshrc
 ```
 
 ## References
