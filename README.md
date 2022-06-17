@@ -1,6 +1,8 @@
 # dotfiles
+Macの環境構築を自動化
 
 ## Usage
+※ 最初にHomebrewをインストールしておくこと
 
 ```shell
 git clone りぽじとり
