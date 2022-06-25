@@ -8,6 +8,7 @@ brew "mas"
 brew "volta"
 
 cask "alfred"
+cask "appcleaner"
 cask "discord"
 cask "google-chrome"
 cask "google-japanese-ime"
