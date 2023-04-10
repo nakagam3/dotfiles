@@ -7,7 +7,8 @@ brew "jq"
 brew "mas"
 brew "volta"
 
-cask "alfred"
+#cask "alfred"
+cask "raycast
 cask "appcleaner"
 cask "discord"
 cask "google-chrome"
