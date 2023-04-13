@@ -7,8 +7,9 @@ export VOLTA_HOME="$HOME/.volta"
 export PATH="$VOLTA_HOME/bin:$PATH"
 
 # エイリアス
-alias gitls='git branch --list'
-alias gitupdate='(){git pull && git pull origin $1}'
+alias gitls='git branch -vv'
+alias gitrename='git branch -m'
+alias gitupdate='(){git fetch && git merge origin/$1}'
 alias gitupdate:cancel='git merge --abort'
 alias gitupdate:reset='git reset --hard HEAD'
 alias gitcd='git checkout'
