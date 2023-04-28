@@ -6,6 +6,7 @@ brew "git"
 brew "jq"
 brew "mas"
 brew "volta"
+brew "zsh-autosuggestions"
 
 #cask "alfred"
 cask "raycast
